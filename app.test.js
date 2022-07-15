@@ -15,10 +15,10 @@ test("One euro should be 1.206 dollars", () => {
 });
 
 test("Get the value of dollars in yens", () => {
-    expect(fromDollarToYen(3.5)).toBe(447.65000000000003) //  3.5(valor inicial de €)/1.2(valor del dolar) * 127.9 (valor del euro en yens)
+    expect(fromDollarToYen(3.5)).toBe(373.04166666666674) //  3.5(valor inicial de €)/1.2(valor del dolar) * 127.9 (valor del euro en yens)
 });
 
 test("Get the value of yens in pounds", () => {
-    expect(fromYenToPound(3.5)).toBe(2.8000000000000003)
+    expect(fromYenToPound(3.5)).toBe(0.0218921032056294)
 });
 
